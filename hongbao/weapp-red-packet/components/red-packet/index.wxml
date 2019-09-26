@@ -1,0 +1,17 @@
+<view class="red-packet">
+  <view class="red-packet-layout {{ open ? 'red-packet-open' : '' }}" bind:tap="handleOpen">
+  <view class="red-wrapper">
+  
+   <view class="red-packet-up" />
+    <view class="red-packet-middle" />
+    <view class="red-packet-content">
+      <view class="red-packet-scan" />
+      <view class="red-packet-tip">小美送红包</view>
+    </view>
+    <view class="red-packet-btn" />
+    <view class="red-packet-top" />
+    <view class="red-packet-bottom" />
+  </view>
+   
+  </view>
+</view>
