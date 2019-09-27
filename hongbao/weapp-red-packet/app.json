@@ -1,0 +1,24 @@
+{
+  "pages": [
+  "pages/index/index",
+  "pages/logs/logs"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "以为您提供最近的服务信息"
+    }
+  },
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  
+  "navigateToMiniProgramAppIdList": [
+    "wx00e4c981aee6b8ab",
+    "wx107fc2a866332ae0",
+    "wx1592dfbb84d3df55"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
